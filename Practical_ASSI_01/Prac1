@@ -1,1 +1,16 @@
+# WAP for print the fibonacci series
+
+num = int(input("Enter Number : "))
+
+n1,n2=0,1
+t=0
+print(n1,n2,sep="\n")
+
+for i in range(3,num):
+    t = n1+n2
+    print(t)
+
+    n1=n2
+    n2=t
+
 
